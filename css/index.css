@@ -30,31 +30,32 @@ main h2 {
   margin-top: 10%;
 }
 #logo-cloud {
-  width: 30%;
+  width: 45%;
   height: auto;
   float: left;
-  margin-left: 35%;
+  margin-left: 29%;
   margin-top: 10%;
 }
 .caixa{
-  width: 80%;
-  height: 40px;
+  width: 70%;
+  height: 50px;
   float: left;
-  margin-left: 10%;
-  border: 0;
-  border-radius: 8px;
+  margin-left: 15%;
+  border: 1;
+  border-radius: 3px;
   margin-top: 5%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
-  color: #fff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #000000;
   text-indent: 20px;
   font-size: 1em;
   outline: none;
+  border-color: #98989881;
 }
 .caixa::placeholder{
-  color: #6f6f6f69;
+  color: #00000090;
 }
 #email{
-  background:#6f6f6f33 url();
+  background:#ffffff33 url();
   background-repeat: no-repeat;
   background-size: 8%;
   background-position-y: center;
@@ -62,18 +63,18 @@ main h2 {
   margin-top: 4%;
 }
 #senha{
-  background:#6f6f6f33 url();
+  background:#ffffff33 url();
   background-repeat: no-repeat;
   background-size: 8%;
   background-position-y: center;
   background-position-x: 8px;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 #bt-entrar{
-  width: 80%;
+  width: 70%;
   float: left;
   height: 40px;
-  margin-left: 10%;
+  margin-left: 15%;
   border: 0;
   border-radius: 8px;
   font-family: "Roboto", serif;
@@ -88,19 +89,22 @@ main h2 {
   width: 100%;
   float: left;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #0a0a0a;
+  color: #020985;
   text-align: right;
   padding-right: 35%;
-  margin-top: 10px;
+  margin-top: 70px;
   background: rgb(253, 251, 251);
 }
 #criar{
   width: 100%;
   float: left;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 35%;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #000000;
+}
+#criar a{
+  color: #056be6;
 }
 label{
   float: left;
@@ -111,41 +115,41 @@ label{
 
 .bt-login{
   width: 100px;
-  height: 60px;
+  height: 30px;
   border-radius: 4px;
-  margin-top: 10%;
+  margin-top: 2%;
   box-shadow: 2px 2px 5px #ffffff;
 }
 #bt-google{
-  background-image: url(../img/QQnPXT5YsC4.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  float: left;
-  margin-left: 21%;
-}
-#bt-github{
   background-image: url(../img/tUzYKZ-xrQK.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+  float: left;
+  margin-left: 25%;
+}
+#bt-github{
+  background-image: url(../img/QQnPXT5YsC4.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
   float: right;
-  margin-right: 21%;
+  margin-right: 25%;
 }
 #sem-conta{
   width: 100%;
   float: left;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #fff;
+  color: #000000;
   text-align: center;
-  margin-top: 25%;
-  font-size: 1.2em;
+  margin-top: 40%;
+  font-size: 0.8em;
 }
 #sem-conta a{
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   font-weight: bold;
 }
 
